@@ -15,7 +15,7 @@ void privatekey(uint64_t *a, uint64_t *b){
     System.out.printf("Input Private Key B: ");
     scanf("%lld", b);
 }
-
+ 
 uint64_t squared(uint64_t i){
     if(!i) return 1 % P;
     else return (G << (i - 1)) % P;
